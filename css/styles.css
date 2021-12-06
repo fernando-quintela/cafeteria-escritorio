@@ -1,0 +1,325 @@
+
+
+body {
+  font-family: 'Allerta', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0px;
+}
+
+
+
+
+.button{
+  background: #9c540c;
+  padding: 6px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 12px;
+  border: none;
+  padding: 8px 12px;
+  text-decoration: none;
+  background: linear-gradient(to left, #7c460a, #df9f5f);
+}
+
+.contenedor{
+  width: 800px;
+  margin: auto;
+  position: relative;
+}
+
+.titulo {
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 70px;
+  margin-bottom: 0px;
+}
+
+.titulo-a{
+  font-size: 24px;
+  margin-top: 0px;
+}
+
+.titulo-b{
+  font-size: 50px;
+  margin-bottom: 20px;
+
+}
+
+.cafes{
+  color: rgb(128, 95, 36);
+  margin-bottom: 60px;
+  
+}
+
+.cafe{
+  /* border: 1px solid #412B19; */
+  padding: 10px;
+  margin: 10px 10px 40px 10px;
+  /* overflow: hidden;  para que no se desborde de la caja   */
+  border-radius: 8px;
+  box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.4);
+}
+
+.cafes h2{
+  font-size: 35px;
+}
+
+#portada{
+  background-image:url('../img/background.jpg') ;
+  background-size: cover;
+  color: white;
+  height: 500px;
+  padding: 20px;
+}
+
+.background-general{
+  background: #5e3609;
+ box-shadow: 0 0 15px 0 black;
+ height: 85px;
+ color: white;
+}
+
+
+
+
+/* .portada button{
+  margin-bottom: 70px;
+
+} */
+
+.menu{
+  font-size: 24px;
+  display: inline-block;
+  position:absolute ;
+  right: 15px;
+  
+}
+
+.menu li{
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+.logotipo{
+display: inline-block;
+font-family: 'pacifico', cursive;
+font-size: 50px;
+margin-left: 0;
+margin-top: -12px;
+
+}
+
+.header{
+  position: relative;
+}
+
+
+
+.imagenfoot{
+   display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+}
+.imagenfoot img{
+  display: block;
+}
+
+.imagenfoot strong {
+  display:block;
+}
+
+
+.imagenfoot a{
+  color: white;
+  text-decoration: none;
+  margin: 10px 5px 10px 0;
+  
+}
+
+
+
+.foot{
+  background: #C29B61;
+  padding: 50px  10px;
+}
+
+
+.rig{
+  float: right;
+  position: relative;
+  top: -127px;
+  
+}
+
+.left{
+  float: left;
+  position: relative;
+  /* top: 80px; */
+}
+
+
+
+.cafe ol{
+  padding: 0px;
+}
+
+.cafe.granoscafe{
+  height: 190px;
+
+}
+
+.contenedor-cafe-a{
+padding-left:20px ;
+position: relative;
+bottom: 36px;
+}
+.contenedor-cafe-b{
+ margin-left: 370px;
+ position: relative;
+ bottom: 115px;
+
+}
+input, textarea{
+  outline: 0;
+  border-radius: 7px;
+  border:1px solid white ;
+}
+
+input:focus, textarea:focus{
+  background: whitesmoke;
+}
+
+input[type='radio']:checked:after {
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  position: relative;
+  background-color: #836123;
+  content:'';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+
+}
+
+input[type='checkbox']:checked:after{
+  width: 10px;
+  height: 10px;
+  position: relative;
+  background-color: #977639;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+
+
+span{
+  margin-right: 15px;
+  margin-top: 8px;
+}
+
+.foot .contenedor{
+  display: flex;
+  justify-content: space-between;
+}
+.formulario{
+  display: flex;
+  color: white;
+  width: 430px;
+  
+  /* padding: 50px 10px; */
+}
+
+/* font-family: 'Allerta', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+
+.col1, .col2{
+  display: flex;
+  flex-direction: column;
+}
+
+.col1{
+  margin-right: 15px;
+}
+
+.col2{
+  align-items: flex-start;
+}
+
+.col2 .button{
+  margin-top: 15px;
+}
+
+.intereses label{
+  font-size: 12PX;
+}
+
+.formulario label, .genero, .intereses{
+  margin-bottom: 10px;
+}
+
+.genero{
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+table{
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+th{
+  background: #493b39;
+  color: white;
+  padding: 10px 20px;
+}
+td{
+  padding: 20px;
+}
+
+table, td, th{
+  font-size: 20px;
+  border: 0;
+  
+}
+
+i{
+font-size: 12px;
+}
+
+.precios{
+  border-radius: 50%;
+  background: #9c540c;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  padding: 15px 7px;
+  width: 40px;
+}
+
+.titulo-precios{
+  display: flex;
+  color: rgb(65, 51, 40);
+  font-size: 45px;
+  font-family: 'pacifico', cursive;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.tabla{
+  margin: 50px 0;
+  flex: 1;
+}
